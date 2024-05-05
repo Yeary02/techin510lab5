@@ -1,6 +1,6 @@
-# Jargon Explainer
+# Stable Diffusion Prompt Generator
 
-The Jargon Explainer App leverages a state-of-the-art Large Language Model (LLM) to demystify complex jargon and technical terms, making them easily understandable to a non-specialist audience. Whether you're a student, a professional, or just curious, this tool can help you grasp complex concepts with ease.
+The App leverages a state-of-the-art Large Language Model (LLM) to generate prompts for stable diffusion.
 
 ## How to Run
 
@@ -30,3 +30,7 @@ streamlit run app.py
 - API Scalability: How well does the Gemini API scale with increased user load? The application's performance under stress, especially with concurrent users, remains a question, particularly considering the potential for rate limiting by the API.
 - Response Time Variability: The response time from the Gemini API appeared to vary based on the complexity of the term provided. This variability could impact user experience, especially in a real-time web application setting. Further investigation is needed to determine average response times and potential optimizations.
 
+## New prompting techniques
+- Adopt a persona as a Stable Diffusion prompt assistant
+- Utilize delimiters to structure prompts effectively
+- Implement a consistent output format for clarity
